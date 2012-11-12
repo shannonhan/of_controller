@@ -1,0 +1,243 @@
+In file included from openflow-1.0.cc:34:0:
+./openflow-1.0.hh: In function ‘uint32_t vigil::openflow::v1::next_xid()’:
+./openflow-1.0.hh:78:24: error: ‘OFP_MAX_XID’ was not declared in this scope
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_msg::ofp_msg(uint8_t, uint16_t, uint32_t)’:
+./openflow-1.0.hh:149:17: error: ‘OFP_VERSION’ was not declared in this scope
+./openflow-1.0.hh: At global scope:
+./openflow-1.0.hh:288:16: error: ‘OFP_MAX_PORT_NAME_LEN’ was not declared in this scope
+./openflow-1.0.hh:288:37: error: array bound is not an integer constant before ‘]’ token
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_phy_port::ofp_phy_port()’:
+./openflow-1.0.hh:277:19: error: ‘name_’ was not declared in this scope
+./openflow-1.0.hh: At global scope:
+./openflow-1.0.hh:385:39: error: ‘OFP_MAX_QUEUE_PROP_COUNT’ was not declared in this scope
+./openflow-1.0.hh:385:63: error: template argument 2 is invalid
+./openflow-1.0.hh:386:22: error: ‘OFP_MAX_QUEUE_PROP_COUNT’ was not declared in this scope
+./openflow-1.0.hh:386:46: error: array bound is not an integer constant before ‘]’ token
+./openflow-1.0.hh:386:48: error: ‘OFP_MAX_QUEUE_PROP_BYTES’ was not declared in this scope
+./openflow-1.0.hh:386:72: error: array bound is not an integer constant before ‘]’ token
+./openflow-1.0.hh: In member function ‘vigil::openflow::v1::ofp_queue_prop_list& vigil::openflow::v1::ofp_queue_prop_list::push_back(const vigil::openflow::v1::ofp_queue_prop*&)’:
+./openflow-1.0.hh:370:23: error: invalid types ‘int[std::size_t {aka long unsigned int}]’ for array subscript
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_match::ofp_match()’:
+./openflow-1.0.hh:458:17: error: ‘OFP_VLAN_NONE’ was not declared in this scope
+./openflow-1.0.hh: At global scope:
+./openflow-1.0.hh:523:32: error: ‘OFP_ACTION_HEADER_BYTES’ was not declared in this scope
+./openflow-1.0.hh:573:29: error: ‘OFP_MAX_ACTION_COUNT’ was not declared in this scope
+./openflow-1.0.hh:573:49: error: template argument 2 is invalid
+./openflow-1.0.hh:574:22: error: ‘OFP_MAX_ACTION_COUNT’ was not declared in this scope
+./openflow-1.0.hh:574:42: error: array bound is not an integer constant before ‘]’ token
+./openflow-1.0.hh:574:44: error: ‘OFP_MAX_ACTION_BYTES’ was not declared in this scope
+./openflow-1.0.hh:574:64: error: array bound is not an integer constant before ‘]’ token
+./openflow-1.0.hh: In member function ‘vigil::openflow::v1::ofp_action_list& vigil::openflow::v1::ofp_action_list::push_back(vigil::openflow::v1::ofp_action*)’:
+./openflow-1.0.hh:558:23: error: invalid types ‘int[std::size_t {aka long unsigned int}]’ for array subscript
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_action_output::ofp_action_output()’:
+./openflow-1.0.hh:588:36: error: ‘OFP_ACTION_OUTPUT_BYTES’ was not declared in this scope
+./openflow-1.0.hh:591:17: error: ‘OFP_MAX_LEN’ was not declared in this scope
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_action_enqueue::ofp_action_enqueue()’:
+./openflow-1.0.hh:615:37: error: ‘OFP_ACTION_ENQUEUE_BYTES’ was not declared in this scope
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_action_strip_vlan::ofp_action_strip_vlan()’:
+./openflow-1.0.hh:647:38: error: the default argument for parameter 1 of ‘vigil::openflow::v1::ofp_action::ofp_action(uint16_t, uint16_t)’ has not yet been parsed
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_action_vlan_vid::ofp_action_vlan_vid()’:
+./openflow-1.0.hh:659:42: error: ‘OFP_ACTION_VLAN_VID_BYTES’ was not declared in this scope
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_action_vlan_pcp::ofp_action_vlan_pcp()’:
+./openflow-1.0.hh:684:42: error: ‘OFP_ACTION_VLAN_PCP_BYTES’ was not declared in this scope
+./openflow-1.0.hh: At global scope:
+./openflow-1.0.hh:709:40: error: ‘OFP_ACTION_DL_ADDR_BYTES’ was not declared in this scope
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_action_dl_src::ofp_action_dl_src()’:
+./openflow-1.0.hh:731:62: error: the default argument for parameter 1 of ‘vigil::openflow::v1::ofp_action_dl_addr::ofp_action_dl_addr(uint16_t, uint16_t)’ has not yet been parsed
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_action_dl_dst::ofp_action_dl_dst()’:
+./openflow-1.0.hh:746:62: error: the default argument for parameter 1 of ‘vigil::openflow::v1::ofp_action_dl_addr::ofp_action_dl_addr(uint16_t, uint16_t)’ has not yet been parsed
+./openflow-1.0.hh: At global scope:
+./openflow-1.0.hh:763:40: error: ‘OFP_ACTION_NW_ADDR_BYTES’ was not declared in this scope
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_action_nw_src::ofp_action_nw_src()’:
+./openflow-1.0.hh:776:62: error: the default argument for parameter 1 of ‘vigil::openflow::v1::ofp_action_nw_addr::ofp_action_nw_addr(uint16_t, uint16_t)’ has not yet been parsed
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_action_nw_dst::ofp_action_nw_dst()’:
+./openflow-1.0.hh:791:62: error: the default argument for parameter 1 of ‘vigil::openflow::v1::ofp_action_nw_addr::ofp_action_nw_addr(uint16_t, uint16_t)’ has not yet been parsed
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_action_nw_tos::ofp_action_nw_tos(uint8_t)’:
+./openflow-1.0.hh:808:40: error: ‘OFP_ACTION_NW_TOS_BYTES’ was not declared in this scope
+./openflow-1.0.hh: At global scope:
+./openflow-1.0.hh:834:40: error: ‘OFP_ACTION_TP_PORT_BYTES’ was not declared in this scope
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_action_tp_src::ofp_action_tp_src()’:
+./openflow-1.0.hh:851:62: error: the default argument for parameter 1 of ‘vigil::openflow::v1::ofp_action_tp_port::ofp_action_tp_port(uint16_t, uint16_t)’ has not yet been parsed
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_action_tp_dst::ofp_action_tp_dst()’:
+./openflow-1.0.hh:866:62: error: the default argument for parameter 1 of ‘vigil::openflow::v1::ofp_action_tp_port::ofp_action_tp_port(uint16_t, uint16_t)’ has not yet been parsed
+./openflow-1.0.hh: At global scope:
+./openflow-1.0.hh:885:42: error: ‘OFPVT_INVALID’ was not declared in this scope
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_action_vendor::ofp_action_vendor(uint32_t)’:
+./openflow-1.0.hh:886:36: error: ‘OFP_ACTION_VENDOR_HEADER_BYTES’ was not declared in this scope
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_features_reply::ofp_features_reply()’:
+./openflow-1.0.hh:937:40: error: ‘OFP_FEATURES_REPLY_BYTES’ was not declared in this scope
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_switch_config::ofp_switch_config(uint8_t)’:
+./openflow-1.0.hh:996:26: error: ‘OFP_SWITCH_CONFIG_BYTES’ was not declared in this scope
+./openflow-1.0.hh:998:23: error: ‘OFP_DEFAULT_MISS_SEND_LEN’ was not declared in this scope
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_flow_mod::ofp_flow_mod()’:
+./openflow-1.0.hh:1040:34: error: ‘OFP_FLOW_MOD_BYTES’ was not declared in this scope
+./openflow-1.0.hh:1043:18: error: ‘OFP_DEFAULT_PRIORITY’ was not declared in this scope
+./openflow-1.0.hh:1046:13: error: ‘SEND_FLOW_REMOVED’ was not declared in this scope
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_port_mod::ofp_port_mod()’:
+./openflow-1.0.hh:1093:34: error: ‘OFP_PORT_MOD_BYTES’ was not declared in this scope
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_queue_get_config_request::ofp_queue_get_config_request()’:
+./openflow-1.0.hh:1135:50: error: ‘OFP_QUEUE_GET_CONFIG_REQUEST_BYTES’ was not declared in this scope
+./openflow-1.0.hh: At global scope:
+./openflow-1.0.hh:1184:30: error: ‘OFP_MAX_QUEUES’ was not declared in this scope
+./openflow-1.0.hh:1184:44: error: array bound is not an integer constant before ‘]’ token
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_queue_get_config_reply::ofp_queue_get_config_reply()’:
+./openflow-1.0.hh:1165:48: error: ‘OFP_QUEUE_GET_CONFIG_REPLY_BYTES’ was not declared in this scope
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_flow_stats::ofp_flow_stats()’:
+./openflow-1.0.hh:1205:18: error: ‘OFP_DEFAULT_PRIORITY’ was not declared in this scope
+./openflow-1.0.hh: At global scope:
+./openflow-1.0.hh:1261:16: error: ‘OFP_MAX_TABLE_NAME_LEN’ was not declared in this scope
+./openflow-1.0.hh:1261:38: error: array bound is not an integer constant before ‘]’ token
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_table_stats::ofp_table_stats()’:
+./openflow-1.0.hh:1250:19: error: ‘name_’ was not declared in this scope
+./openflow-1.0.hh: At global scope:
+./openflow-1.0.hh:1357:22: error: ‘OFP_MAX_STATS_PER_REPLY’ was not declared in this scope
+./openflow-1.0.hh:1357:45: error: template argument 2 is invalid
+./openflow-1.0.hh:1406:64: error: ‘OFP_HEADER_BYTES’ was not declared in this scope
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_stats_request::ofp_stats_request(uint16_t, uint16_t)’:
+./openflow-1.0.hh:1431:41: error: ‘OFP_STATS_REQUEST_BYTES’ was not declared in this scope
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_stats_reply::ofp_stats_reply(uint16_t, uint16_t)’:
+./openflow-1.0.hh:1466:39: error: ‘OFP_STATS_REPLY_BYTES’ was not declared in this scope
+./openflow-1.0.hh: At global scope:
+./openflow-1.0.hh:1645:49: error: ‘OFPVT_INVALID’ was not declared in this scope
+./openflow-1.0.hh:1695:20: error: ‘DESC_STR_LEN’ was not declared in this scope
+./openflow-1.0.hh:1695:32: error: array bound is not an integer constant before ‘]’ token
+./openflow-1.0.hh:1696:19: error: ‘DESC_STR_LEN’ was not declared in this scope
+./openflow-1.0.hh:1696:31: error: array bound is not an integer constant before ‘]’ token
+./openflow-1.0.hh:1697:19: error: ‘DESC_STR_LEN’ was not declared in this scope
+./openflow-1.0.hh:1697:31: error: array bound is not an integer constant before ‘]’ token
+./openflow-1.0.hh:1698:22: error: ‘SERIAL_NUM_LEN’ was not declared in this scope
+./openflow-1.0.hh:1698:36: error: array bound is not an integer constant before ‘]’ token
+./openflow-1.0.hh:1699:19: error: ‘DESC_STR_LEN’ was not declared in this scope
+./openflow-1.0.hh:1699:31: error: array bound is not an integer constant before ‘]’ token
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_desc_stats_reply::ofp_desc_stats_reply()’:
+./openflow-1.0.hh:1675:19: error: ‘mfr_desc_’ was not declared in this scope
+./openflow-1.0.hh:1676:19: error: ‘hw_desc_’ was not declared in this scope
+./openflow-1.0.hh:1677:19: error: ‘sw_desc_’ was not declared in this scope
+./openflow-1.0.hh:1678:19: error: ‘serial_num_’ was not declared in this scope
+./openflow-1.0.hh:1679:19: error: ‘dp_desc_’ was not declared in this scope
+./openflow-1.0.hh: At global scope:
+./openflow-1.0.hh:1816:47: error: ‘OFPVT_INVALID’ was not declared in this scope
+./openflow-1.0.hh:1893:21: error: ‘OFP_MAX_PACKET_BYTES’ was not declared in this scope
+./openflow-1.0.hh:1893:41: error: array bound is not an integer constant before ‘]’ token
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_packet_out::ofp_packet_out()’:
+./openflow-1.0.hh:1849:36: error: ‘OFP_PACKET_OUT_BYTES’ was not declared in this scope
+./openflow-1.0.hh:1854:51: error: ‘packet_’ was not declared in this scope
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_packet_out::ofp_packet_out(vigil::openflow::v1::ofp_msg&)’:
+./openflow-1.0.hh:1859:33: error: ‘packet_’ was not declared in this scope
+./openflow-1.0.hh: At global scope:
+./openflow-1.0.hh:1988:21: error: ‘OFP_MAX_PACKET_BYTES’ was not declared in this scope
+./openflow-1.0.hh:1988:41: error: array bound is not an integer constant before ‘]’ token
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_packet_in::ofp_packet_in()’:
+./openflow-1.0.hh:1952:35: error: ‘OFP_PACKET_IN_BYTES’ was not declared in this scope
+./openflow-1.0.hh:1955:43: error: ‘packet_’ was not declared in this scope
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_packet_in::ofp_packet_in(vigil::openflow::v1::ofp_msg&)’:
+./openflow-1.0.hh:1959:43: error: ‘packet_’ was not declared in this scope
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_flow_removed::ofp_flow_removed()’:
+./openflow-1.0.hh:2014:38: error: ‘OFP_FLOW_REMOVED_BYTES’ was not declared in this scope
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_port_status::ofp_port_status()’:
+./openflow-1.0.hh:2066:37: error: ‘OFP_PORT_STATUS_BYTES’ was not declared in this scope
+./openflow-1.0.hh: At global scope:
+./openflow-1.0.hh:2193:19: error: ‘OFP_MAX_MSG_BYTES’ was not declared in this scope
+./openflow-1.0.hh:2193:36: error: array bound is not an integer constant before ‘]’ token
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_error_msg::ofp_error_msg()’:
+./openflow-1.0.hh:2177:29: error: ‘OFP_ERROR_MSG_BYTES’ was not declared in this scope
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_hello::ofp_hello()’:
+./openflow-1.0.hh:2214:39: error: ‘OFP_HELLO_BYTES’ was not declared in this scope
+./openflow-1.0.hh: At global scope:
+./openflow-1.0.hh:2242:22: error: ‘OFP_MAX_PACKET_BYTES’ was not declared in this scope
+./openflow-1.0.hh:2242:42: error: array bound is not an integer constant before ‘]’ token
+./openflow-1.0.hh:2280:35: error: ‘OFPVT_INVALID’ was not declared in this scope
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_vendor::ofp_vendor(uint32_t)’:
+./openflow-1.0.hh:2281:32: error: ‘OFP_VENDOR_HEADER_BYTES’ was not declared in this scope
+./openflow-1.0.hh: In constructor ‘vigil::openflow::v1::ofp_features_request::ofp_features_request()’:
+./openflow-1.0.hh:2313:42: error: ‘OFP_FEATURES_REQUEST_BYTES’ was not declared in this scope
+In file included from ./openflow-1.0.hh:2374:0,
+                 from openflow-1.0.cc:34:
+./openflow-inl-1.0.hh: At global scope:
+./openflow-inl-1.0.hh:64:65: error: ISO C++ forbids in-class initialization of non-const static member ‘test’
+./openflow-inl-1.0.hh:64:65: error: template declaration of ‘char vigil::openflow::v1::test’
+./openflow-inl-1.0.hh: In member function ‘void vigil::openflow::v1::ofp_phy_port::serialize(Archive&, unsigned int)’:
+./openflow-inl-1.0.hh:415:32: error: ‘name_’ was not declared in this scope
+./openflow-inl-1.0.hh: In member function ‘void vigil::openflow::v1::ofp_features_reply::serialize(Archive&, unsigned int)’:
+./openflow-inl-1.0.hh:493:43: error: ‘OFP_PHY_PORT_BYTES’ was not declared in this scope
+./openflow-inl-1.0.hh: In member function ‘void vigil::openflow::v1::ofp_action_list::serialize(Archive&, unsigned int)’:
+./openflow-inl-1.0.hh:526:20: error: invalid types ‘int[std::size_t {aka long unsigned int}]’ for array subscript
+./openflow-inl-1.0.hh:526:54: error: ‘storage_’ was not declared in this scope
+./openflow-inl-1.0.hh:527:63: error: invalid types ‘int[std::size_t {aka long unsigned int}]’ for array subscript
+./openflow-inl-1.0.hh:528:36: error: invalid types ‘int[std::size_t {aka long unsigned int}]’ for array subscript
+./openflow-inl-1.0.hh:532:34: error: invalid types ‘int[std::size_t {aka long unsigned int}]’ for array subscript
+./openflow-inl-1.0.hh:533:46: error: invalid types ‘int[std::size_t {aka long unsigned int}]’ for array subscript
+./openflow-inl-1.0.hh: In member function ‘void vigil::openflow::v1::ofp_vendor::serialize(Archive&, unsigned int)’:
+./openflow-inl-1.0.hh:552:50: error: ‘OFPVT_INVALID’ was not declared in this scope
+./openflow-inl-1.0.hh: In member function ‘void vigil::openflow::v1::ofp_error_msg::serialize(Archive&, unsigned int)’:
+./openflow-inl-1.0.hh:564:32: error: ‘data_’ was not declared in this scope
+./openflow-inl-1.0.hh: In member function ‘void vigil::openflow::v1::ofp_queue_get_config_reply::serialize(Archive&, unsigned int)’:
+./openflow-inl-1.0.hh:594:29: error: ‘OFP_QUEUE_GET_CONFIG_REPLY_BYTES’ was not declared in this scope
+./openflow-inl-1.0.hh:594:65: error: ‘OFP_PACKET_QUEUE_BYTES’ was not declared in this scope
+./openflow-inl-1.0.hh:595:24: error: ‘queues_’ was not declared in this scope
+./openflow-inl-1.0.hh: In member function ‘void vigil::openflow::v1::ofp_vendor_stats_request::serialize(Archive&, unsigned int)’:
+./openflow-inl-1.0.hh:668:50: error: ‘OFPVT_INVALID’ was not declared in this scope
+./openflow-inl-1.0.hh: In member function ‘void vigil::openflow::v1::ofp_desc_stats_reply::serialize(Archive&, unsigned int)’:
+./openflow-inl-1.0.hh:677:32: error: ‘mfr_desc_’ was not declared in this scope
+./openflow-inl-1.0.hh:678:32: error: ‘hw_desc_’ was not declared in this scope
+./openflow-inl-1.0.hh:679:32: error: ‘sw_desc_’ was not declared in this scope
+./openflow-inl-1.0.hh:680:32: error: ‘serial_num_’ was not declared in this scope
+./openflow-inl-1.0.hh:681:32: error: ‘dp_desc_’ was not declared in this scope
+./openflow-inl-1.0.hh: In member function ‘void vigil::openflow::v1::ofp_vendor_stats_reply::serialize(Archive&, unsigned int)’:
+./openflow-inl-1.0.hh:733:50: error: ‘OFPVT_INVALID’ was not declared in this scope
+./openflow-inl-1.0.hh: In member function ‘void vigil::openflow::v1::ofp_table_stats::serialize(Archive&, unsigned int)’:
+./openflow-inl-1.0.hh:820:32: error: ‘name_’ was not declared in this scope
+./openflow-inl-1.0.hh: In member function ‘void vigil::openflow::v1::ofp_queue_prop_list::serialize(Archive&, unsigned int)’:
+./openflow-inl-1.0.hh:838:20: error: invalid types ‘int[std::size_t {aka long unsigned int}]’ for array subscript
+./openflow-inl-1.0.hh:838:58: error: ‘storage_’ was not declared in this scope
+./openflow-inl-1.0.hh:839:63: error: invalid types ‘int[std::size_t {aka long unsigned int}]’ for array subscript
+./openflow-inl-1.0.hh:840:36: error: invalid types ‘int[std::size_t {aka long unsigned int}]’ for array subscript
+./openflow-inl-1.0.hh:844:34: error: invalid types ‘int[std::size_t {aka long unsigned int}]’ for array subscript
+./openflow-inl-1.0.hh:845:50: error: invalid types ‘int[std::size_t {aka long unsigned int}]’ for array subscript
+./openflow-inl-1.0.hh: In member function ‘void vigil::openflow::v1::ofp_action_vendor::serialize(Archive&, unsigned int)’:
+./openflow-inl-1.0.hh:934:50: error: ‘OFPVT_INVALID’ was not declared in this scope
+./openflow-inl-1.0.hh: In member function ‘void vigil::openflow::v1::ofp_match::from_packet(uint32_t, boost::asio::const_buffer)’:
+./openflow-inl-1.0.hh:1107:13: error: ‘OFP_VLAN_NONE’ was not declared in this scope
+./openflow-inl-1.0.hh:1139:21: error: ‘OFP_DL_TYPE_NOT_ETH_TYPE’ was not declared in this scope
+./openflow-inl-1.0.hh: In member function ‘void vigil::openflow::v1::ofp_action_list::serialize(Archive&, unsigned int) [with Archive = vigil::network_iarchive]’:
+./network_iarchive.hh:67:9:   instantiated from ‘void vigil::network_iarchive::load_override(T&, int) [with T = vigil::openflow::v1::ofp_action_list]’
+./network_iarchive.hh:117:9:   instantiated from ‘vigil::network_iarchive& vigil::network_iarchive::operator>>(T&) [with T = vigil::openflow::v1::ofp_action_list, vigil::network_iarchive = vigil::network_iarchive]’
+./network_iarchive.hh:123:25:   instantiated from ‘vigil::network_iarchive& vigil::network_iarchive::operator&(T&) [with T = vigil::openflow::v1::ofp_action_list, vigil::network_iarchive = vigil::network_iarchive]’
+./openflow-inl-1.0.hh:364:5:   instantiated from ‘void vigil::openflow::v1::ofp_packet_out::serialize(Archive&, unsigned int) [with Archive = vigil::network_iarchive]’
+./openflow-inl-1.0.hh:80:9:   instantiated from ‘void vigil::openflow::v1::serialize_visitor<Message>::operator()(Archive&) const [with Archive = vigil::network_iarchive, Message = vigil::openflow::v1::ofp_packet_out]’
+/usr/include/boost/variant/variant.hpp:858:32:   [ skipping 9 instantiation contexts ]
+./openflow-inl-1.0.hh:96:13:   instantiated from ‘void vigil::openflow::v1::construct_and_load<Derived, Base, Enable>::operator()(vigil::openflow::v1::ofp_archive_type, Base*, Base&) [with Derived = vigil::openflow::v1::ofp_packet_out, Base = vigil::openflow::v1::ofp_msg, Enable = void, vigil::openflow::v1::ofp_archive_type = boost::variant<vigil::network_iarchive&, vigil::network_oarchive&, boost::archive::polymorphic_iarchive&, boost::archive::polymorphic_oarchive&>]’
+/usr/include/boost/function/function_template.hpp:153:11:   instantiated from ‘static void boost::detail::function::void_function_obj_invoker3<FunctionObj, R, T0, T1, T2>::invoke(boost::detail::function::function_buffer&, T0, T1, T2) [with FunctionObj = vigil::openflow::v1::construct_and_load<vigil::openflow::v1::ofp_packet_out, vigil::openflow::v1::ofp_msg>, R = void, T0 = boost::variant<vigil::network_iarchive&, vigil::network_oarchive&, boost::archive::polymorphic_iarchive&, boost::archive::polymorphic_oarchive&>, T1 = vigil::openflow::v1::ofp_msg*, T2 = vigil::openflow::v1::ofp_msg&]’
+/usr/include/boost/function/function_template.hpp:907:60:   instantiated from ‘void boost::function3<R, T1, T2, T3>::assign_to(Functor) [with Functor = vigil::openflow::v1::construct_and_load<vigil::openflow::v1::ofp_packet_out, vigil::openflow::v1::ofp_msg>, R = void, T0 = boost::variant<vigil::network_iarchive&, vigil::network_oarchive&, boost::archive::polymorphic_iarchive&, boost::archive::polymorphic_oarchive&>, T1 = vigil::openflow::v1::ofp_msg*, T2 = vigil::openflow::v1::ofp_msg&]’
+/usr/include/boost/function/function_template.hpp:722:7:   instantiated from ‘boost::function3<R, T1, T2, T3>::function3(Functor, typename boost::enable_if_c<boost::type_traits::ice_not<boost::is_integral<Functor>::value>::value, int>::type) [with Functor = vigil::openflow::v1::construct_and_load<vigil::openflow::v1::ofp_packet_out, vigil::openflow::v1::ofp_msg>, R = void, T0 = boost::variant<vigil::network_iarchive&, vigil::network_oarchive&, boost::archive::polymorphic_iarchive&, boost::archive::polymorphic_oarchive&>, T1 = vigil::openflow::v1::ofp_msg*, T2 = vigil::openflow::v1::ofp_msg&, typename boost::enable_if_c<boost::type_traits::ice_not<boost::is_integral<Functor>::value>::value, int>::type = int]’
+/usr/include/boost/function/function_template.hpp:1042:16:   instantiated from ‘boost::function<R(T0, T1, T2)>::function(Functor, typename boost::enable_if_c<boost::type_traits::ice_not<boost::is_integral<Functor>::value>::value, int>::type) [with Functor = vigil::openflow::v1::construct_and_load<vigil::openflow::v1::ofp_packet_out, vigil::openflow::v1::ofp_msg>, R = void, T0 = boost::variant<vigil::network_iarchive&, vigil::network_oarchive&, boost::archive::polymorphic_iarchive&, boost::archive::polymorphic_oarchive&>, T1 = vigil::openflow::v1::ofp_msg*, T2 = vigil::openflow::v1::ofp_msg&, typename boost::enable_if_c<boost::type_traits::ice_not<boost::is_integral<Functor>::value>::value, int>::type = int]’
+./openflow-inl-1.0.hh:139:5:   instantiated from here
+./openflow-inl-1.0.hh:524:24: error: the default argument for parameter 1 of ‘vigil::openflow::v1::ofp_action::ofp_action(uint16_t, uint16_t)’ has not yet been parsed
+./openflow-inl-1.0.hh: In member function ‘void vigil::openflow::v1::ofp_action_list::serialize(Archive&, unsigned int) [with Archive = vigil::network_oarchive]’:
+./network_oarchive.hh:66:9:   instantiated from ‘void vigil::network_oarchive::save_override(const T&, int) [with T = vigil::openflow::v1::ofp_action_list]’
+./network_oarchive.hh:115:9:   instantiated from ‘vigil::network_oarchive& vigil::network_oarchive::operator<<(T&) [with T = vigil::openflow::v1::ofp_action_list, vigil::network_oarchive = vigil::network_oarchive]’
+./network_oarchive.hh:121:25:   instantiated from ‘vigil::network_oarchive& vigil::network_oarchive::operator&(T&) [with T = vigil::openflow::v1::ofp_action_list, vigil::network_oarchive = vigil::network_oarchive]’
+./openflow-inl-1.0.hh:364:5:   instantiated from ‘void vigil::openflow::v1::ofp_packet_out::serialize(Archive&, unsigned int) [with Archive = vigil::network_oarchive]’
+./openflow-inl-1.0.hh:80:9:   instantiated from ‘void vigil::openflow::v1::serialize_visitor<Message>::operator()(Archive&) const [with Archive = vigil::network_oarchive, Message = vigil::openflow::v1::ofp_packet_out]’
+/usr/include/boost/variant/variant.hpp:858:32:   [ skipping 9 instantiation contexts ]
+./openflow-inl-1.0.hh:96:13:   instantiated from ‘void vigil::openflow::v1::construct_and_load<Derived, Base, Enable>::operator()(vigil::openflow::v1::ofp_archive_type, Base*, Base&) [with Derived = vigil::openflow::v1::ofp_packet_out, Base = vigil::openflow::v1::ofp_msg, Enable = void, vigil::openflow::v1::ofp_archive_type = boost::variant<vigil::network_iarchive&, vigil::network_oarchive&, boost::archive::polymorphic_iarchive&, boost::archive::polymorphic_oarchive&>]’
+/usr/include/boost/function/function_template.hpp:153:11:   instantiated from ‘static void boost::detail::function::void_function_obj_invoker3<FunctionObj, R, T0, T1, T2>::invoke(boost::detail::function::function_buffer&, T0, T1, T2) [with FunctionObj = vigil::openflow::v1::construct_and_load<vigil::openflow::v1::ofp_packet_out, vigil::openflow::v1::ofp_msg>, R = void, T0 = boost::variant<vigil::network_iarchive&, vigil::network_oarchive&, boost::archive::polymorphic_iarchive&, boost::archive::polymorphic_oarchive&>, T1 = vigil::openflow::v1::ofp_msg*, T2 = vigil::openflow::v1::ofp_msg&]’
+/usr/include/boost/function/function_template.hpp:907:60:   instantiated from ‘void boost::function3<R, T1, T2, T3>::assign_to(Functor) [with Functor = vigil::openflow::v1::construct_and_load<vigil::openflow::v1::ofp_packet_out, vigil::openflow::v1::ofp_msg>, R = void, T0 = boost::variant<vigil::network_iarchive&, vigil::network_oarchive&, boost::archive::polymorphic_iarchive&, boost::archive::polymorphic_oarchive&>, T1 = vigil::openflow::v1::ofp_msg*, T2 = vigil::openflow::v1::ofp_msg&]’
+/usr/include/boost/function/function_template.hpp:722:7:   instantiated from ‘boost::function3<R, T1, T2, T3>::function3(Functor, typename boost::enable_if_c<boost::type_traits::ice_not<boost::is_integral<Functor>::value>::value, int>::type) [with Functor = vigil::openflow::v1::construct_and_load<vigil::openflow::v1::ofp_packet_out, vigil::openflow::v1::ofp_msg>, R = void, T0 = boost::variant<vigil::network_iarchive&, vigil::network_oarchive&, boost::archive::polymorphic_iarchive&, boost::archive::polymorphic_oarchive&>, T1 = vigil::openflow::v1::ofp_msg*, T2 = vigil::openflow::v1::ofp_msg&, typename boost::enable_if_c<boost::type_traits::ice_not<boost::is_integral<Functor>::value>::value, int>::type = int]’
+/usr/include/boost/function/function_template.hpp:1042:16:   instantiated from ‘boost::function<R(T0, T1, T2)>::function(Functor, typename boost::enable_if_c<boost::type_traits::ice_not<boost::is_integral<Functor>::value>::value, int>::type) [with Functor = vigil::openflow::v1::construct_and_load<vigil::openflow::v1::ofp_packet_out, vigil::openflow::v1::ofp_msg>, R = void, T0 = boost::variant<vigil::network_iarchive&, vigil::network_oarchive&, boost::archive::polymorphic_iarchive&, boost::archive::polymorphic_oarchive&>, T1 = vigil::openflow::v1::ofp_msg*, T2 = vigil::openflow::v1::ofp_msg&, typename boost::enable_if_c<boost::type_traits::ice_not<boost::is_integral<Functor>::value>::value, int>::type = int]’
+./openflow-inl-1.0.hh:139:5:   instantiated from here
+./openflow-inl-1.0.hh:524:24: error: the default argument for parameter 1 of ‘vigil::openflow::v1::ofp_action::ofp_action(uint16_t, uint16_t)’ has not yet been parsed
+./openflow-inl-1.0.hh: In member function ‘void vigil::openflow::v1::ofp_action_list::serialize(Archive&, unsigned int) [with Archive = boost::archive::polymorphic_oarchive]’:
+/usr/include/boost/serialization/access.hpp:118:9:   instantiated from ‘static void boost::serialization::access::serialize(Archive&, T&, unsigned int) [with Archive = boost::archive::polymorphic_oarchive, T = vigil::openflow::v1::ofp_action_list]’
+/usr/include/boost/serialization/serialization.hpp:69:5:   instantiated from ‘void boost::serialization::serialize(Archive&, T&, unsigned int) [with Archive = boost::archive::polymorphic_oarchive, T = vigil::openflow::v1::ofp_action_list]’
+/usr/include/boost/serialization/serialization.hpp:128:9:   instantiated from ‘void boost::serialization::serialize_adl(Archive&, T&, unsigned int) [with Archive = boost::archive::polymorphic_oarchive, T = vigil::openflow::v1::ofp_action_list]’
+/usr/include/boost/archive/detail/oserializer.hpp:148:5:   instantiated from ‘void boost::archive::detail::oserializer<Archive, T>::save_object_data(boost::archive::detail::basic_oarchive&, const void*) const [with Archive = boost::archive::polymorphic_oarchive, T = vigil::openflow::v1::ofp_action_list]’
+openflow-1.0.cc:55:1:   instantiated from here
+./openflow-inl-1.0.hh:524:24: error: the default argument for parameter 1 of ‘vigil::openflow::v1::ofp_action::ofp_action(uint16_t, uint16_t)’ has not yet been parsed
+./openflow-inl-1.0.hh: In member function ‘void vigil::openflow::v1::ofp_action_list::serialize(Archive&, unsigned int) [with Archive = boost::archive::polymorphic_iarchive]’:
+/usr/include/boost/serialization/access.hpp:118:9:   instantiated from ‘static void boost::serialization::access::serialize(Archive&, T&, unsigned int) [with Archive = boost::archive::polymorphic_iarchive, T = vigil::openflow::v1::ofp_action_list]’
+/usr/include/boost/serialization/serialization.hpp:69:5:   instantiated from ‘void boost::serialization::serialize(Archive&, T&, unsigned int) [with Archive = boost::archive::polymorphic_iarchive, T = vigil::openflow::v1::ofp_action_list]’
+/usr/include/boost/serialization/serialization.hpp:128:9:   instantiated from ‘void boost::serialization::serialize_adl(Archive&, T&, unsigned int) [with Archive = boost::archive::polymorphic_iarchive, T = vigil::openflow::v1::ofp_action_list]’
+/usr/include/boost/archive/detail/iserializer.hpp:188:5:   instantiated from ‘void boost::archive::detail::iserializer<Archive, T>::load_object_data(boost::archive::detail::basic_iarchive&, void*, unsigned int) const [with Archive = boost::archive::polymorphic_iarchive, T = vigil::openflow::v1::ofp_action_list]’
+openflow-1.0.cc:55:1:   instantiated from here
+./openflow-inl-1.0.hh:524:24: error: the default argument for parameter 1 of ‘vigil::openflow::v1::ofp_action::ofp_action(uint16_t, uint16_t)’ has not yet been parsed
